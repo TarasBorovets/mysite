@@ -3,23 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Taras Borovets</title>
-        <link rel="stylesheet" href="C:\Users\admin\Desktop\mysite\ss\main.css" type="text/css">
+        <link rel="stylesheet" href="layout\index.css" type="text/css">
     </head>
     <body>
         <header>
-			<h2>TARAS BOROVETS</h2>
-            <nav>
+			
+            <nav class="nav">
+             <h2 id="label">TARAS BOROVETS</h2>
                 <a href="#about">ABOUT</a>
                 <a href="#gallery">GALLERY</a>
                 <a href="#contact">CONTACT</a>
             </nav>
-            <h1>TARAS BOROVETS</h1>
-            <h2>JUNIOR FRONT - END DEVELOPER</h2>
-			<button>More information</button>
+            <h1 class="header-text">TARAS BOROVETS</h1>
+            <h2 class="header-text">JUNIOR FRONT - END DEVELOPER</h2>
+			<button id="moreinf-button">More information</button>
 			<div class="header-images">
-				<img src="C:\Users\admin\Desktop\mysite\imgs\html5logo.jpg" width="250" height="250" alt="HTML">
-				<img src="C:\Users\admin\Desktop\mysite\imgs\css3logo.jpg" width="250" height="250" alt="CSS">
-				<img src="C:\Users\admin\Desktop\mysite\imgs\jslogo.png" width="250" height="250" alt="JS">
+				<img src="imgs\html5logo.jpg" width="250" height="250" alt="HTML">
+				<img src="imgs\css3logo.jpg" width="250" height="250" alt="CSS">
+				<img src="imgs\jslogo.png" width="250" height="250" alt="JS">
 			</div>
         </header>
 		<section id="aboutme-section">
@@ -46,14 +47,18 @@
 		</section>
 		<section id="gallery">
 			<h2>Some photos</h2>
-			<img src="C:\Users\admin\Desktop\mysite\imgs\myphoto1.jpg" width="44%" height="44%" alt="myphoto">
+			<img src="imgs\myphoto1.jpg" width="44%" height="44%" alt="myphoto"><br>
 			<button>Contact me</button>
 		</section>
 		<section id="contact">
-			<p>Email: legioner.ukr@gmail.com</p>
-			<p>Phone +38(063)8610359<br>+38(068)8584552</p>
-				<img src="C:\Users\admin\Desktop\mysite\imgs\spacecat.jpg" alt="space cat">
-					<form name=form action="https://formspree.io/legioner.ukr@gmail.com" method="post">
+			<div id="contact-info">
+				<p>Email: legioner.ukr@gmail.com</p>
+				<p>Phone +38(063)8610359<br>+38(068)8584552</p>
+			</div>
+			<div id="spacecat">
+				<img src="imgs\spacecat.jpg" width="44%" height="44%" alt="space cat">
+			</div>
+					<form name=form id="form" action="https://formspree.io/legioner.ukr@gmail.com" method="post">
 						<label for="name">Your Name:</label><br>
 						<input type="text" name="name" required><br>
 						<label for="surname">Surname:</label><br>

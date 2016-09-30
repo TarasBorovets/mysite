@@ -1,0 +1,35 @@
+body {
+background-image: url("imgs\grey.jpg");
+font-family: cursive ;
+}
+
+.header-text {
+text-align: center;
+}
+#moreinf-button {
+ text-align: center;
+ background-color: yellow;
+ border-color: black;
+}
+
+#aboutme-section {
+    background: yellow;
+    
+}
+.header-images {
+text-align: center;
+}
+#gallery {
+text-align: center;
+}
+#contact-info {
+float: left;
+width: 33%
+}
+#spacecat{
+float: left;
+width: 33%   
+}
+#form {
+float: right;
+}
