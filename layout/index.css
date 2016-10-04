@@ -1,22 +1,50 @@
 body {
-background-image: url("imgs\grey.jpg");
+background-image: url(\imgs\grey.jpg);
+background-color: #344;
 font-family: cursive ;
+margin: 0 auto;
 }
 
 .header-text {
 text-align: center;
+margin: 0 auto;
+}
+#header-text1 {
+margin-top: 100px;
 }
 #moreinf-button {
  text-align: center;
- background-color: yellow;
  border-color: black;
+ margin-bottom: 20px;
 }
 
-#aboutme-section {
-    background: yellow;
+#about {
+    background: #D0D629;
+    height: 650px;
     
 }
+
+.aboutme {
+text-align: center;   
+}
+
+#biograf {
+text-align: center;
+}
+
+.firstpar {
+border: 1px solid black;
+width: 600px;
+height: 250px;
+text-align: center;
+margin: auto;
+
+}
 .header-images {
+text-align: center;
+margin-bottom: 105px;
+}
+.godownbutton {
 text-align: center;
 }
 #gallery {
@@ -33,3 +61,14 @@ width: 33%
 #form {
 float: right;
 }
+.ggg {
+    position: relative;
+    left: 80%;
+    border: 2px solid black;
+    background-color: red;
+    width: 250px;
+    height: 27px;
+    text-align: center;
+    
+}
+
