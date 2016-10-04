@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="layout\index.css" type="text/css">
     </head>
     <body>
+    	<script type="text/javascript" src=""></script>
+
         <header>
 			<div class="ggg">
             <nav >
@@ -58,17 +60,18 @@
 		<section id="gallery">
 			<h2>Some photos</h2>
 			<img src="imgs\myphoto1.jpg" width="44%" height="44%" alt="myphoto"><br>
-			<button>Contact me</button>
+			<button id="contactbutton">Contact me</button>
 		</section>
 		<section id="contact">
 			<div id="contact-info">
 				<p>Email: legioner.ukr@gmail.com</p>
 				<p>Phone +38(063)8610359<br>+38(068)8584552</p>
 			</div>
-			<div id="spacecat">
-				<img src="imgs\spacecat.jpg" width="44%" height="44%" alt="space cat">
-			</div>
-					<form name=form id="form" action="https://formspree.io/legioner.ukr@gmail.com" method="post">
+			
+				<img id="spacecat" src="imgs\spacecat.jpg" width="44%" height="44%" alt="space cat">
+			
+					<div id="form">
+						<form name=form action="https://formspree.io/legioner.ukr@gmail.com" method="post">
 						<label for="name">Your Name:</label><br>
 						<input type="text" name="name" required><br>
 						<label for="surname">Surname:</label><br>
@@ -78,7 +81,8 @@
 						<p>Message<Br>
 						<textarea name="comment" cols="40" rows="3"></textarea></p>
 						<p><input type="submit" name="send" value="Send"></p>
-					</form>
+						</form>
+					</div>
 		</section>
     </body>
 </html>
