@@ -1,6 +1,5 @@
 body {
-background-image: url(\imgs\grey.jpg);
-background-color: #344;
+background: url("imgs/grey.jpg");
 font-family: cursive ;
 margin: 0 auto;
 }
