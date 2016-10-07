@@ -1,8 +1,23 @@
 
 body {
-background-image: url(imgs/spacecat.jpg);
+   height: 100%;
+   width: 100%;
+ background-image: url("../imgs/Awesome-Galaxy-On-Space-Wallpaper-PC-e1423702084871.jpg");
+ -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    margin-top: 0;
+   
 font-family: cursive ;
 margin: 0 auto;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
 }
 
 .header-text {
@@ -18,11 +33,17 @@ margin-top: 100px;
  margin-bottom: 20px;
 }
 
-#about {
+.about {
     background: #D0D629;
     height: 650px;
+    width: 100%;
+    opacity: 0.4;
     
 }
+.about > p {
+    opacity: 1;
+}
+
 
 .aboutme {
 text-align: center;   
@@ -30,6 +51,7 @@ text-align: center;
 
 #biograf {
 text-align: center;
+opacity: 1;
 }
 
 .firstpar {
@@ -70,29 +92,40 @@ width: 25%
 
 }
 #spacecat{
-margin-right: 5%;
+
 
 float: left;
 width: 25%   
 }
 #form {
 
-float: left
+float: left;
 
 
 
 
 }
 .ggg {
-    margin-left: 70%;
-    margin-top: 20px;
-    
-    width: 20%;
     
     border: 2px solid black;
-    background-color: red;
-    width: 250px;
-    height: 27px;
+    
     text-align: center;
+    width: 35%;
+    margin-left: auto;
+    
+    
+}
+.ggg > ul > li {
+ display: inline-block;
+ list-style: none;
+ margin-right: 30px;
+}
+
+.ggg > ul > li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ggg > ul > li a: {
     
 }
