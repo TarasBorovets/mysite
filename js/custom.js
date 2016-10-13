@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 15) {
+        if ($(this).scrollTop() > 0) {
             $('.ggg').addClass("fixed");
         } else {
             $('.ggg').removeClass("fixed");
@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     $("#owl-example").owlCarousel({
 
-        autoPlay: 3000,
+        autoPlay: 4000,
         stopOnHover: true,
         navigation: true,
         paginationSpeed: 3000,
@@ -26,7 +26,7 @@ $(document).ready(function() {
         autoHeight: true,
     });
 
-    $(".ggg, #moreinf-button").on("click", "a", function(event) {
+    $(".ggg, #moreinf-button, .godownbutton").on("click", "a", function(event) {
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;

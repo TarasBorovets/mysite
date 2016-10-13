@@ -67,8 +67,8 @@ header {
 }
 
 .header-images img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .header-text {
@@ -86,12 +86,18 @@ header {
     text-align: center;
     border-color: black;
     margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.checkitoutbutton {
+    border-radius: 30px;
 }
 
 #about {
     background-color: rgba(2, 4, 4, 0.4);
     min-height: 650px;
     width: 100%;
+    height: 100vh;
 }
 
 #about > p {
@@ -122,10 +128,12 @@ header {
 
 .godownbutton {
     text-align: center;
+    
 }
 
 #gallery {
     text-align: center;
+    height: 100vh;
 }
 
 .somephotoes {
@@ -133,10 +141,13 @@ header {
 }
 
 #owl-example .gallery-wrapper {
-    overflow: hidden;
+    overflow: hidden; 
     width: 100%;
     height: 400px;
+    
 }
+
+
 
 .owl-buttons div {
     display: inline-block;
@@ -193,7 +204,21 @@ textarea {
     text-align: center;
     width: 35%;
     float: right;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    
 }
+.ggg1 {
+    background-color: green;
+    min-height: 200px;
+    width: 100%;
+    z-index: 20;
+}
+.ggg a:hover {
+    color: red; 
+   
+    
+   }
 
 .ggg.fixed {
     z-index: 1;

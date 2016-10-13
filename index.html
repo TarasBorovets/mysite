@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <title>Taras Borovets</title>
 
-    <link rel="stylesheet" href="layout\owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="layout\index.css" type="text/css">
+    <link rel="stylesheet" href="layout/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="layout/index.css" type="text/css">
+    <link rel="stylesheet" href="path/to/swiper.min.css">
+
+
 </head>
 
 <body>
     <div class="wrapper">
 
         <header>
-
+            <div class="ggg1">
             <div class="ggg">
                 <div class="togglemenu">
                     <span class="palka"></span>
@@ -24,34 +27,34 @@
                     <li><a href="#gallery">GALLERY</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-
+            </div>
             </div>
 
             <div class="header-text">
                 <h1 id="header-text1">TARAS BOROVETS</h1>
                 <h2>JUNIOR FRONT - END DEVELOPER</h2>
             </div>
-
+        </div>
             <div id="moreinf-button">
                 <a href="#about">
-                    <button>More information</button>
+                    <button class="checkitoutbutton" >More information</button>
                 </a>
             </div>
             <div class="header-images">
-                <img src="imgs\html5logo.jpg" alt="HTML">
-                <img src="imgs\css3logo.jpg" alt="CSS">
-                <img src="imgs\jslogo.png" alt="JS">
+                <img src="imgs/html5logo.png" alt="HTML">
+                <img src="imgs/css3logo.png" alt="CSS">
+                <img src="imgs/jslogo.png" alt="JS">
             </div>
         </header>
         <section id="about">
             <h2 class="aboutme pt-15">About me</h2>
             <div class="firstpar">
                 <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
+<p> Hi everyone! My name is Taras</p>
                 </article>
             </div>
             <article id="biograf">
+                <h2>Some facts about me</h2>
                 <p>Lorem ipsum dolor sit amet,
                     <br> consectetur adipisicing elit,
                     <br> sed do eiusmod tempor incididunt
@@ -63,7 +66,7 @@
             </article>
             <div class="godownbutton">
                 <a href="#gallery">
-                    <button>Check it out!</button>
+                    <button class= "checkitoutbutton">Check it out!</button>
                 </a>
             </div>
         </section>
@@ -72,20 +75,21 @@
             <div id="owl-example" class="owl-carousel">
 
                 <div class="gallery-wrapper"><img class="gallerimg" src="imgs\myphoto1.jpg" alt="myphoto"></div>
-                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\spacecat.jpg" alt="myphoto"></div>
-                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\myphoto1.jpg" alt="myphoto"></div>
+                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\photo2.jpg" alt="myphoto"></div>
+                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\photo3.jpg" alt="myphoto"></div>
 
             </div>
-            <a href="#contact">
-                <button id="contactbutton">Contact me</button>
-            </a>
+            
         </section>
+        
         <section id="contact">
             <div id="contact-info" class="text-center">
                 <p>Email: legioner.ukr@gmail.com</p>
                 <p>+38(063)8610359
                     <br>+38(068)8584552</p>
+                    <img src="imgs\myphoto1.jpg" alt="myphoto" width="100px" height= "100px" style= clear: left>
             </div>
+            
 
             <img id="spacecat" class="text-center" src="imgs\spacecat.jpg" width="44%" height="44%" alt="space cat">
 
@@ -107,7 +111,7 @@
                     <br>
                     <textarea name="comment"></textarea>
                     <p>
-                        <input type="submit" name="send" value="Send">
+                        <input  type="submit" name="send" value="Send">
                     </p>
                 </form>
             </div>
@@ -117,6 +121,7 @@
 
     <script src="js/jquery-2.2.2.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="path/to/swiper.jquery.min.js"></script>
     <script src="js/custom.js"></script>
 
 </body>
