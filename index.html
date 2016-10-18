@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Taras Borovets</title>
 
     <link rel="stylesheet" href="layout/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="layout/index.css" type="text/css">
-    <link rel="stylesheet" href="path/to/swiper.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -16,13 +17,16 @@
     <div class="wrapper">
 
         <header>
+        
             <div class="ggg1">
             <div class="ggg">
                 <div class="togglemenu">
                     <span class="palka"></span>
                     <span class="palka2"></span>
                 </div>
-                <ul>
+                
+                <ul class="nav nav-tabs nav-justified">
+                    
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#gallery">GALLERY</a></li>
                     <li><a href="#contact">CONTACT</a></li>
@@ -34,17 +38,21 @@
                 <h1 id="header-text1">TARAS BOROVETS</h1>
                 <h2>JUNIOR FRONT - END DEVELOPER</h2>
             </div>
-        </div>
+            
+            
+            
             <div id="moreinf-button">
                 <a href="#about">
-                    <button class="checkitoutbutton" >More information</button>
+                    <button  class="btn btn-primary">More information</button>
                 </a>
             </div>
             <div class="header-images">
-                <img src="imgs/html5logo.png" alt="HTML">
-                <img src="imgs/css3logo.png" alt="CSS">
-                <img src="imgs/jslogo.png" alt="JS">
+                
+                <img class="logoimg"  src="imgs/web-logos.png" alt="logos" >
+                
             </div>
+            
+            
         </header>
         <section id="about">
             <h2 class="aboutme pt-15">About me</h2>
@@ -55,18 +63,18 @@
             </div>
             <article id="biograf">
                 <h2>Some facts about me</h2>
-                <p>Lorem ipsum dolor sit amet,
-                    <br> consectetur adipisicing elit,
-                    <br> sed do eiusmod tempor incididunt
-                    <br> ut labore et dolore magna aliqua.
-                    <br> Ut enim ad minim veniam, quis nos
-                    <br> laboris nisi ut aliquip ex ea com
+                <p>1993 - was born,
+                    <br>2004 - entered Lviv Academic Gymnasium
+                    <br>2010 - entered Lviv National University of Ivan Franko
+                    <br>2015 - graduated from history department
+                    <br>september 2016 - entered Softserve IT Academy
+                    <br> middle of October 2016 - aquired some web-developer skills
                     <br>
                 </p>
             </article>
             <div class="godownbutton">
                 <a href="#gallery">
-                    <button class= "checkitoutbutton">Check it out!</button>
+                    <button class="btn btn-primary" >Check it out!</button>
                 </a>
             </div>
         </section>
@@ -74,27 +82,33 @@
             <h2 class="somephotoes">Some photos</h2>
             <div id="owl-example" class="owl-carousel">
 
-                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\myphoto1.jpg" alt="myphoto"></div>
-                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\photo2.jpg" alt="myphoto"></div>
-                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\photo3.jpg" alt="myphoto"></div>
+                <div class="gallery-wrapper"><img class="gallerimg"  src="imgs\myphoto1.jpg" alt="myphoto"></div>
+                <div class="gallery-wrapper"><img class="gallerimg"  src="imgs\photo3.jpg" alt="myphoto"></div>
+                <div class="gallery-wrapper"><img class="gallerimg" src="imgs\photo.jpg" alt="myphoto"></div>
 
             </div>
             
+            
+            
         </section>
-        
+          
+      
+
         <section id="contact">
             <div id="contact-info" class="text-center">
-                <p>Email: legioner.ukr@gmail.com</p>
-                <p>+38(063)8610359
+                <p>Email:<br> legioner.ukr@gmail.com</p>
+                <p>Phone<br>+38(063)8610359
                     <br>+38(068)8584552</p>
-                    <img src="imgs\myphoto1.jpg" alt="myphoto" width="100px" height= "100px" style= clear: left>
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100007343651378" target="_blank"><img src="imgs\facebook.png" alt="myphoto"</img></a>
+                    <a href="https://vk.com/id14832451" target="_blank"><img src="imgs\vk.jpg"  alt="myphoto"</img></a>
             </div>
             
 
             <img id="spacecat" class="text-center" src="imgs\spacecat.jpg" width="44%" height="44%" alt="space cat">
 
             <div id="form" class="text-center">
-                <form name=form action="https://formspree.io/legioner.ukr@gmail.com" method="post">
+                <form name="form" id="form-submit" method="post">
                     <label for="name">Your Name:</label>
                     <br>
                     <input type="text" name="name" required>
@@ -111,19 +125,21 @@
                     <br>
                     <textarea name="comment"></textarea>
                     <p>
-                        <input  type="submit" name="send" value="Send">
+                        <input  type="submit"  name="send" value="Send" class="btn btn-primary">
                     </p>
                 </form>
             </div>
             <div class="clearfix"></div>
         </section>
     </div>
-
+<footer>
+    <p> © Taras Borovets 2016</p>
+    
+</footer>
     <script src="js/jquery-2.2.2.js"></script>
     <script src="js/owl.carousel.js"></script>
-    <script src="path/to/swiper.jquery.min.js"></script>
     <script src="js/custom.js"></script>
-
+    
 </body>
 
 </html>
