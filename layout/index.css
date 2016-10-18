@@ -120,7 +120,8 @@ header {
 
 #about p {
     line-height: 2.5;
-    color: black;
+    color: white;
+    
 }
 
 .aboutme {
@@ -135,6 +136,7 @@ header {
 .firstpar {
     text-align: center;
     margin: auto;
+    
 }
 
 .godownbutton {
