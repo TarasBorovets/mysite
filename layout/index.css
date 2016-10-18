@@ -82,7 +82,7 @@ header {
 .header-images {
     position: static;
      margin: 0 auto;
-    width: 700px;
+    width: 70%;
     text-align: center;
     margin-bottom: 105px;
 }
